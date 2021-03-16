@@ -33,7 +33,7 @@ class FlaskyStyle(Style):
 
         # because special names such as Name.Class, Name.Function, etc.
         # are not recognized as such later in the parsing, we choose them
-        # to look the same as ordinary variables.
+        # to look the same  ordinary variables.
         Name:                      "#000000",        # class: 'n'
         Name.Attribute:            "#c4a000",        # class: 'na' - to be revised
         Name.Builtin:              "#004461",        # class: 'nb'
